@@ -1,0 +1,18 @@
+[
+  {
+    "id": "ok-computer",
+    "artist": "Radiohead",
+    "title": "OK Computer",
+    "year": 1997,
+    "genre": "Alternative Rock",
+    "cover": "https://ir.ozone.ru/s3/multimedia-4/6701216440.jpg"
+  },
+  {
+    "id": "tpab",
+    "artist": "Kanye West",
+    "title": "my beautiful dark twisted fantasy ",
+    "year": 2010,
+    "genre": "Hip-Hop",
+    "cover": "https://i.pinimg.com/originals/52/66/b9/5266b941954830b8a27893f0226dafa8.png"
+  }
+]

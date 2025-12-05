@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Music Album Tier List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Music Album Tier List</h1>
+
+  <div id="controls">
+    <button id="reset-btn">Сбросить</button>
+    <button id="save-btn">Сохранить</button>
+  </div>
+
+  <div id="tiers">
+    <!-- Пример строки -->
+    <div class="tier" data-tier="S">
+      <div class="tier-label">S</div>
+      <div class="tier-dropzone"></div>
+    </div>
+    <div class="tier" data-tier="A">
+      <div class="tier-label">A</div>
+      <div class="tier-dropzone"></div>
+    </div>
+    <div class="tier" data-tier="B">
+      <div class="tier-label">B</div>
+      <div class="tier-dropzone"></div>
+    </div>
+    <div class="tier" data-tier="C">
+      <div class="tier-label">C</div>
+      <div class="tier-dropzone"></div>
+    </div>
+    <div class="tier" data-tier="D">
+      <div class="tier-label">D</div>
+      <div class="tier-dropzone"></div>
+    </div>
+  </div>
+
+  <h2>Все альбомы</h2>
+  <div id="album-pool" class="tier-dropzone"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>

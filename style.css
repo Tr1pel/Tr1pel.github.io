@@ -1,0 +1,86 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #121212;
+  color: #eee;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#tiers {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.tier {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 8px;
+}
+
+.tier-label {
+  width: 60px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333;
+  border-radius: 8px 0 0 8px;
+}
+
+.tier-dropzone {
+  flex: 1;
+  min-height: 80px;
+  border: 2px dashed #444;
+  border-left: none;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-radius: 0 8px 8px 0;
+}
+
+#album-pool {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.album-card {
+  width: 120px;
+  background: #1f1f1f;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: grab;
+}
+
+.album-card img {
+  width: 100%;
+  display: block;
+}
+
+.album-card .info {
+  padding: 4px 6px 6px;
+  font-size: 12px;
+}
+
+.album-card .title {
+  font-weight: 600;
+}
+
+.album-card .artist {
+  color: #aaa;
+}
+
+.album-card .year {
+  color: #777;
+}
+
+.tier-dropzone.drag-over {
+  border-color: #888;
+  background: rgba(255, 255, 255, 0.03);
+}
